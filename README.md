@@ -26,9 +26,9 @@ O objetivo foi aplicar na prática os conceitos aprendidos durante o curso e con
   </a>
 </div>
 
+###
 
 <div align="center">
-  <img src="https://github.com/Chris-CRA/Curso-PograMaria-Site-Ada/blob/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
+  <img src="https://raw.githubusercontent.com/Chris-CRA/Curso-PograMaria-Meu-Site/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
 </div>
-
 
