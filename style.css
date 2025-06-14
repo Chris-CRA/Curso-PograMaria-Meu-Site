@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ADD8E6;
+  color: #333;
+}
+
+.topo {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff80;
+}
+
+.topo h1 {
+  color: #00008B;
+  font-size: 36px;
+}
+
+header {
+  background: #87CEFA;
+  height: 40px;
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: #00008B;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 10px;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #888;
+}
+
+form button {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #2563eb;
+}
+
+section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000020;
+}
+
+h1 i, h2 i, h3 i {
+  margin-right: 8px;
+  color: #00008B;
+}
